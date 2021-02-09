@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Multiplayer Game</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+  <script src="p5.play.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-database.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyD5ra1j2UXX4Bx1D_ck8_9LpMwQKaqDAiA",
+      authDomain: "multiplayer-car-racing-g-a7031.firebaseapp.com",
+      databaseURL: "https://multiplayer-car-racing-g-a7031-default-rtdb.firebaseio.com",
+      projectId: "multiplayer-car-racing-g-a7031",
+      storageBucket: "multiplayer-car-racing-g-a7031.appspot.com",
+      messagingSenderId: "1023427904231",
+      appId: "1:1023427904231:web:aacac6a8ee36a7bc93d842"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+
+
+
+  <script src="js/Player.js"></script>
+  <script src="js/Form.js"></script>
+  <script src="js/Game.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <script src="sketch.js"></script>
+</body>
+
+</html>
